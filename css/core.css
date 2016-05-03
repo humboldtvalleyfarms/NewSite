@@ -341,7 +341,7 @@ section {
 	 background: transparent url(../img/header.png)  no-repeat center center;
 	 background-size: cover;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	.bg-image-2 {
 		 background: #F7C723 url(../img/header.png)  no-repeat 20% center;
 		 /*background-size: cover;*/
@@ -353,7 +353,7 @@ section {
    background-size: cover;
    /*height: 20em;*/
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .bg-image-3 {
      background: #F7C723 url(../img/dessert.jpg)  no-repeat 80% 25%;
      /*background-size: cover;*/
@@ -454,7 +454,7 @@ section {
   background-size: cover;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 769px) {
   #hero {
       background-position: center center;
   }
