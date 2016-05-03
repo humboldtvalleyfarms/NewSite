@@ -1,9 +1,12 @@
 <?php
+/*======================================
+=            PHP send email            =
+======================================*/
 
-$email = "humboldtvalleyfarms@gmail.com";
+$email = "humboldtvalleyfarms@gmail.com"; /* add your email */
 
 $headerFields = array(
-  "From: humboldtvalleyfarms@gmail.com",
+  "From: humboldtvalleyfarms@gmail.com", /* add your email */
   "MIME-Version: 1.0",
   "Content-Type: text/html;charset=utf-8"
 );
@@ -23,11 +26,14 @@ if (isset($_POST['comments'])) {
   Comments: '.$_POST['comments'].'<br />
   ';
 
-  if ( mail($email, 'Contact form webpage Humboldt Valley Farms', $mailText, implode("\r\n", $headerFields) ) ) {
+  if ( mail($email, 'Contact form webpage 1E-shop by www.angelostudio.net.', $mailText, implode("\r\n", $headerFields) ) ) {
     error_log(serialize($log_data)."\n", 3, '_log/contact.log');
   } else {
     error_log(serialize($log_data)."\n", 3, '_log/contact_error.log');
   }
 
 }
+
+/*-----  End of PHP send email  ------*/
+
 ?>
