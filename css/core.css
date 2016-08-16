@@ -737,6 +737,14 @@ section {
   color: white;
 }
 
+.varela {
+  font-family: 'Varela', sans-serif;
+}
+
+.center {
+  margin: 0 auto;
+}
+
 .spaced {
   margin-top: 2em;
 }
@@ -770,4 +778,6 @@ section {
   padding-left: 1em;
   padding-right: 1em;
 }
+
+
 
