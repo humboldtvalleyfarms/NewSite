@@ -44,7 +44,7 @@ a {
 }
 #menu-link:hover .menu-icon{
     background-color: #D486F7;
-} 
+}
 #menu-link.is-clicked{
     background-color: #D486F7;
 }
@@ -63,7 +63,7 @@ a {
   background-color: #D486F7;
 }
 .zoom-img  {
-	border: 6px solid #D486F7;
+	border: 6px solid #3A2018;
 }
 /*-----  End of COLOR purple  ------*/
 

@@ -4,7 +4,6 @@
 ==============================*/
 
 .footer-1 {
-	background-color: #1d2023;
 	padding: 80px 0 70px 0;
 	color: #B6B6B6;
 }
@@ -22,7 +21,7 @@
 	display: block;
 	font-size: 28px;
 	text-align: center;
-	background: #F7C723;
+	background: #683a2b;
 	color: #fff;
 	border-radius: 26px;
 	position: relative;
@@ -33,7 +32,7 @@
 	.copyright-text {
 		padding-bottom: 15px;
 	}
-	
+
 	.copyright-text,
 	.social-links-2 {
 		float: none!important;

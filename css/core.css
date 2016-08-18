@@ -342,25 +342,14 @@ section {
     background-color: #000;
 }
 
-.bg-image-2 {
-	 background: transparent url(../img/header.png)  no-repeat center center;
-	 background-size: cover;
-}
-@media (max-width: 768px) {
-	.bg-image-2 {
-		 background: #F7C723 url(../img/header.png)  no-repeat 20% center;
-		 /*background-size: cover;*/
-	}
-}
-
 .bg-image-3 {
-   background: transparent url(../img/dessert.jpg)  no-repeat center 55%;
+   background: transparent url(../img/doseback.jpg)  no-repeat center 50%;
    background-size: cover;
    /*height: 20em;*/
 }
-@media (max-width: 768px) {
+@media (max-width: 765px) {
   .bg-image-3 {
-     background: #F7C723 url(../img/dessert.jpg)  no-repeat 80% 25%;
+     background: #F7C723 url(../img/doseback.jpg)  no-repeat 70% 95%;
      /*background-size: cover;*/
   }
 }
@@ -452,12 +441,13 @@ section {
 ============================*/
 #hero {
 	height: 550px;
-  background-image: url(../img/caramel.jpg);
+  background-image: url(../img/spacebackground.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-position: center center;
+  /*position: relative;*/
 }
 
 @media (max-width: 769px) {
@@ -486,7 +476,19 @@ section {
 	padding: 1em;
 	margin: 0 auto;
 	background-color: transparent;
+  /*position: relative;*/
 }
+
+/*.introtext {
+  position: absolute;
+  bottom: 2em;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}*/
+
 .hero-unit h1{
 	font-size: 70px;
 	font-weight: 200;
@@ -591,20 +593,20 @@ section {
 	text-decoration: none;
 	outline: none !important;
 	position: relative;
-	background: #F7C723;
+	background: #3a2018;
 	color: #202020;
 	border-radius: 4px;
 	font-weight: 600;
 	letter-spacing: 1px;
-	-webkit-box-shadow: 0 4px 0 #ECB709;
-    -moz-box-shadow: 0 4px 0 #ECB709;
-    box-shadow: 0 4px 0 #ECB709;
+	-webkit-box-shadow: 0 4px 0 #3a2018;
+    -moz-box-shadow: 0 4px 0 #3a2018;
+    box-shadow: 0 4px 0 #3a2018;
 
 }
 .btn:hover,
 .btn:active,
 .btn:focus {
-	color: #202020;
+	color: white;
 	top: 4px;
 	text-decoration: none;
 	box-shadow: none;
@@ -779,5 +781,11 @@ section {
   padding-right: 1em;
 }
 
+.spacedbottom {
+  padding-bottom: 1em;
+}
 
+.shortwide {
+  max-width: 75%;
+}
 
